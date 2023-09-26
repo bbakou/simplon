@@ -1,0 +1,67 @@
+section{
+    background-color: rgb(221, 145, 145);
+    padding: 30px;
+}
+
+form{
+    background-color: rgb(243, 62, 62);
+    padding: 30px;
+    width: 700px;
+    margin-left: 22%;
+    box-shadow: 0 0 10px;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+.Erreur {
+    color: rgb(255, 255, 255);
+    margin: 10px 0;
+    text-align: center;
+}
+
+.nom, .prenom, .email, .numero{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.nom input, .prenom input, .email input, .numero input{
+    margin-bottom: 20px;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.bass{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    height: 35px;
+    width: 150px;
+    margin-right: 10px;
+    letter-spacing: 1px;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    box-shadow: 0 0 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(245, 113, 113);
+    border: none;
+}

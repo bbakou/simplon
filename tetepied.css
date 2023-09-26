@@ -1,0 +1,187 @@
+
+/* ----------------------------------------------------------------------------------------------
+---------------------------------- Le  Header   -------------------------------------------------
+------------------------------------------------------------------------------------------------ */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "poppins";
+}
+
+nav {
+    margin-top: 0;
+    padding-top: 0;
+    display: flex;
+    background-color: rgb(245, 6, 6);
+    height: 80px;
+    width: 100%;
+    position: relative;
+    border-bottom: 2px solid white;
+    box-shadow: 0 0 10px black;
+    justify-content: space-between;
+}
+
+label.logo {
+    color: white;
+    text-shadow: 0 2px 6px black;
+    font-size: 35px;
+    line-height: 80px;
+    padding-left: 20px;
+    font-weight: 600;
+}
+
+nav a{
+    margin: 25px 15px 25px 0px;
+    width: 200px;
+    color: rgb(67, 67, 5);
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: white;
+    transition: 0.3s;
+    clip-path: polygon(
+          100% 0,
+          100% 35%,
+          100% 50%,
+          100% 65%,
+          100% 100%,
+          0 100%,
+          0 65%,
+          0 50%,
+          0 35%,
+          0 0
+      );
+}
+
+nav a:hover{
+  clip-path: polygon(
+        100% 0,
+        100% 35%,
+        90% 50%,
+        100% 65%,
+        100% 100%,
+        0 100%,
+        0 65%,
+        10% 50%,
+        0 35%,
+        0 0
+    );
+}
+
+
+/* -------------------------------------------------------------------------------------------
+------------------------------------- Footer -------------------------------------------------
+-------------------------------------------------------------------------------------------- */
+footer{
+    background: rgb(245, 6, 6);
+    width: 100%;
+  }
+  footer::before{
+    height: 1px;
+    width: 100%;
+    background: #AFAFB6;
+  }
+  footer .content{
+    max-width: 1250px;
+    height: 60px;
+    margin: auto;
+    padding: 30px 40px 40px 40px;
+  }
+  
+  footer .content .top{
+    height: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 50px;
+  }
+  .content .top .logo-details{
+    color: #fff;
+    font-size: 30px;
+  }
+  
+  .logo_name{
+    text-shadow: 0 2px 6px black;
+    font-weight: 1000;
+    
+  }
+  
+  .content .top .media-icons{
+    display: flex;
+  }
+  .content .top .media-icons a{
+    height: 40px;
+    width: 40px;
+    margin: 0 8px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    font-size: 17px;
+    text-decoration: none;
+    transition: all 0.4s ease;
+  }
+  .top .media-icons a:nth-child(1){
+    background: #4267B2;
+  }
+  .top .media-icons a:nth-child(1):hover{
+    color: #4267B2;
+    background: #fff;
+  }
+  .top .media-icons a:nth-child(2){
+    background: #1DA1F2;
+  }
+  .top .media-icons a:nth-child(2):hover{
+    color: #1DA1F2;
+    background: #fff;
+  }
+  .top .media-icons a:nth-child(3){
+    background: #E1306C;
+  }
+  .top .media-icons a:nth-child(3):hover{
+    color: #E1306C;
+    background: #fff;
+  }
+  .top .media-icons a:nth-child(4){
+    background: #0077B5;
+  }
+  .top .media-icons a:nth-child(4):hover{
+    color: #0077B5;
+    background: #fff;
+  }
+  
+  
+  footer .bottom-details{
+    width: 100%;
+    background: #57508e;
+  }
+  
+  footer .bottom-details .bottom_text{
+    max-width: 1250px;
+    margin: auto;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .bottom-details .bottom_text span,
+  .bottom-details .bottom_text a{
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    opacity: 0.8;
+    text-decoration: none;
+  }
+  .bottom-details .bottom_text a:hover{
+    opacity: 1;
+    text-decoration: underline;
+  }
+  .bottom-details .bottom_text a{
+    margin-right: 10px;
+  }
+
