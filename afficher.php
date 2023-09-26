@@ -75,10 +75,10 @@
               <span class="logo_name">Simplon Côte d'Ivoire</span>
             </div>
             <div class="media-icons">
-              <a href="#"><img src="./image/facebook.png" alt="facebook"></a>
-              <a href="#"><img src="./image/Twitter.png" alt="Twitter"></a>
-              <a href="#"><img src="./image/instagrame.png" alt="instagram"></a>
-              <a href="#"><img src="./image/youtube.png" alt="youtube"></a>
+              <a href="#"><img src="./facebook.png" alt="facebook"></a>
+              <a href="#"><img src="./Twitter.png" alt="Twitter"></a>
+              <a href="#"><img src="./instagrame.png" alt="instagram"></a>
+              <a href="#"><img src="./youtube.png" alt="youtube"></a>
             </div>
           </div>
         </div>
